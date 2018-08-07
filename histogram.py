@@ -5,12 +5,9 @@ Piture shows how often certain ActiveActions occur in a given
 time interval
 
 set TIME_INTERVAL to change the length (in seconds)
-set DENSE_GRAPH to display x-axis as seconds, not intervals
-    also makes the graph dense, without spaces between datapoints
+
 set ENTITY to tell for which entity do you want results
     usually CAO, CACL or SASM
-set MULTIPLOT to plot to True to graphs on different plots
-    False overlays them
 """
 
 import sys
